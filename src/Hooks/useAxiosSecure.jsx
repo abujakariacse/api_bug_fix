@@ -6,7 +6,7 @@
 
 // // baseURL: "https://assignment-12-server-delta-sepia.vercel.app",
 // const axiosInstance = axios.create({
-//   baseURL: "http://localhost:3000",
+//   baseURL: "https://assignment-12-server-delta-sepia.vercel.app",
 // });
 
 // const useAxiosSecure = () => {
@@ -58,7 +58,7 @@ import toastMessage from "../utils/toastMessage";
 import { useNavigate } from "react-router";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:3000", // or use import.meta.env.VITE_API_URL
+  baseURL: "https://assignment-12-server-delta-sepia.vercel.app", // or use import.meta.env.VITE_API_URL
 });
 
 const useAxiosSecure = () => {
